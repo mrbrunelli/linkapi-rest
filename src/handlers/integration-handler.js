@@ -4,7 +4,7 @@ const {updateRepositoryOrders, loadRepositoryOrders} = require("../use-cases/rep
 
 const router = express.Router()
 
-router.get("/integrate", saveBlingWonDeals)
+router.post("/integrate", saveBlingWonDeals)
 router.put("/update-repository", updateRepositoryOrders)
 router.get("/orders", loadRepositoryOrders)
 

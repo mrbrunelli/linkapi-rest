@@ -7,7 +7,7 @@ localhost:3333/integration
 
 ### Integrate Pipedrive with Bling
 ```
-GET /integrate
+POST /integrate
 ```
 
 ### Update Repository with Bling Daily Orders
