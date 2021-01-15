@@ -1,7 +1,6 @@
 const {ok, badRequest} = require("../helpers")
-const LoadPipedriveWonDeals = require("./load-pipedrive-won-deals")
-const LoadPipedriveProductsByDeal = require("./load-pipedrive-products-by-deal")
-const SaveBlingWonDeals = require("./save-bling-won-deals")
+const {LoadPipedriveWonDeals, LoadPipedriveProductsByDeal} = require("./pipedrive")
+const {SaveBlingWonDeals} = require("./bling")
 
 const PIPEDRIVE_TOKEN = process.env.PIPEDRIVE_TOKEN
 const BLING_TOKEN = process.env.BLING_TOKEN
