@@ -32,7 +32,6 @@ class LoadPipedriveProductsByDeal {
             }
             return serializedProducts
         } catch (e) {
-            console.log(e)
             throw new Error("Error to load Products of Deal. " + e.message)
         }
     }
