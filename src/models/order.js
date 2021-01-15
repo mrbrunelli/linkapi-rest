@@ -1,6 +1,6 @@
 const mongoose = require("../database/connection")
 
-const Deal = new mongoose.Schema({
+const Order = new mongoose.Schema({
    date: {
        type: Date,
        required: true
@@ -14,4 +14,4 @@ const Deal = new mongoose.Schema({
     timestamps: true
 })
 
-module.exports = mongoose.model('deal', Deal)
+module.exports = mongoose.model('order', Order)
