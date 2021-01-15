@@ -1,6 +1,8 @@
 # LinkApi Rest Integration
 > Integrate Bling Platform with Pipedrive Won Deals
 
+## [API DOCS Here :D](https://github.com/mrbrunelli/linkapi-rest/blob/master/APIDOCS.md)
+
 ## Environment variables
 ```javascript
 PORT // Server port
@@ -15,11 +17,4 @@ BLING_TOKEN
 # Node 12+
 # Npm 6+
 npm install && npm start
-```
-
-## Endpoints
-```javascript
-/*
-*  GET /integration/integrate
-*/
 ```
