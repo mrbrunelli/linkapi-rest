@@ -1,8 +1,8 @@
 const express = require("express")
-const BlingHandler = require("./handlers/bling-handler")
+const integrationHandler = require("./handlers/integration-handler")
 
 const router = express.Router()
 
-router.use("/integration", BlingHandler)
+router.use("/integration", integrationHandler)
 
 module.exports = router
