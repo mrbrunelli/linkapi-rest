@@ -21,7 +21,7 @@ class LoadPipedriveWonDeals {
             const serializedDeals = this.serializeDeals(deals)
             return serializedDeals
         } catch (e) {
-            throw new Error("Error to load Won Deals of Pipedrive.")
+            throw new Error("Error to load Won Deals of Pipedrive. " + e.message)
         }
     }
 

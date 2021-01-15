@@ -27,7 +27,7 @@ class SaveBlingWonDeals {
             }
             return responses
         } catch (e) {
-            throw new Error("Error to save Pipedrive Won Deals in Bling platform.")
+            throw new Error("Error to save Pipedrive Won Deals in Bling platform. " + e.message)
         }
     }
 

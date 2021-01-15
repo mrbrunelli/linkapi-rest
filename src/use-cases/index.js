@@ -12,6 +12,6 @@ module.exports = async (req, res) => {
         const responses = await new SaveBlingWonDeals(BLING_TOKEN, wonDealsWithProducts).save()
         return ok(res, responses)
     } catch (e) {
-        return badRequest(res, e)
+        return badRequest(res, e.message)
     }
 }
