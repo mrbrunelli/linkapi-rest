@@ -4,7 +4,7 @@ module.exports = {
     },
 
     noContent(res) {
-        return res.status(204)
+        return res.status(204).json("No Content")
     },
 
     badRequest(res, err) {
