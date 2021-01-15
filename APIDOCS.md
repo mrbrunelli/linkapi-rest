@@ -15,7 +15,7 @@ GET /integrate
 PUT /update-repository
 
 Filters: {
-    token: string 
+    token: string (Bling token)
     date: string (ex: 15/01/2021)
 }
 ```
