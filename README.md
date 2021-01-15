@@ -1,4 +1,4 @@
-# LinkApi Rest Integration
+# LinkApi | Rest Integration
 > Integrate Bling Platform with Pipedrive Won Deals
 
 ## [API DOCS Here :D](https://github.com/mrbrunelli/linkapi-rest/blob/master/APIDOCS.md)
@@ -18,3 +18,13 @@ BLING_TOKEN
 # Npm 6+
 npm install && npm start
 ```
+
+# Successfully Rest Integration
+### Get Deals from Pipedrive Platform
+![](.github/pipedrive.png)
+
+### Insert Deals in Bling Platform
+![](.github/bling.png)
+
+### Total of Orders Value Integrated per Day
+![](.github/mongodb.png)
