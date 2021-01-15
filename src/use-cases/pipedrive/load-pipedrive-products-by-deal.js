@@ -21,16 +21,19 @@ class LoadPipedriveProductsByDeal {
                     }
                 )
                 const productsOfDeal = res.data.data
-                const products = this.serializeProducts(productsOfDeal)
-                serializedProducts.push({
-                    id: deal.id,
-                    name: deal.name,
-                    products: products
-                })
+                if (productsOfDeal) {
+                    const products = this.serializeProducts(productsOfDeal)
+                    serializedProducts.push({
+                        id: deal.id,
+                        name: deal.name,
+                        products: products
+                    })
+                }
             }
             return serializedProducts
         } catch (e) {
-            throw new Error("Error to load Products of Deal.")
+            console.log(e)
+            throw new Error("Error to load Products of Deal. " + e.message)
         }
     }
 
